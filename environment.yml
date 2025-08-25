@@ -1,0 +1,60 @@
+name: research_analyst
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - requests
+  - beautifulsoup4
+  - jupyter
+  - notebook
+  - pip:
+    # Core LLM Framework
+    - langchain==0.1.0
+    - langchain-community==0.0.10
+    - langchain-openai==0.0.5
+    - langgraph==0.0.20
+    - langsmith==0.0.77
+    
+    # Vector Database
+    - chromadb==0.4.22
+    - sentence-transformers==2.2.2
+    
+    # Document Processing
+    - PyPDF2==3.0.1
+    - python-docx==1.1.0
+    - unstructured==0.11.8
+    - python-magic==0.4.27
+    
+    # Web Scraping
+    - playwright==1.40.0
+    - selenium==4.16.2
+    
+    # API Framework
+    - fastapi==0.108.0
+    - uvicorn[standard]==0.25.0
+    - pydantic==2.5.2
+    
+    # Environment & Config
+    - python-dotenv==1.0.0
+    - pydantic-settings==2.1.0
+    
+    # Utilities
+    - tqdm==4.66.1
+    - rich==13.7.0
+    - typer==0.9.0
+    
+    # Testing
+    - pytest==7.4.3
+    - pytest-asyncio==0.23.2
+    - httpx==0.26.0
+    
+    # Logging & Monitoring
+    - structlog==23.2.0
+    
+    # LLM Providers
+    - anthropic==0.8.1
+    - openai==1.6.1

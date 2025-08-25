@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector Database
+chroma_db/
+.chroma/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# API Keys and Secrets
+secrets.json
+api_keys.txt
+
+# Data files (add specific patterns as needed)
+data/raw/
+data/processed/
+data/research_cli/
+uploads/
+cli_data/
+pdfs/
+embeddings_cache_*.db
+
+# Model files
+models/
+*.pkl
+*.joblib
+
+# Generated reports and analysis files
+report_*.md
+research_report.md
+system_analytics.json
+enhanced_analytics.json
+enhanced_report.md
+analysis_*.json
+
+# Zone Identifier files (Windows)
+*:Zone.Identifier
