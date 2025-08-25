@@ -23,6 +23,13 @@ python research_cli.py paper.pdf -q "What are the main findings?"
 python research_cli.py *.pdf -q "Compare methodologies"
 ```
 
+## Output Files
+
+After running the script, two files are generated:
+
+- **system_analytics.json** - Performance metrics and system diagnostics
+- **research_report.md** - Structured analysis report with citations
+
 ## Features
 
 - Document processing (PDF, DOCX, TXT)
