@@ -106,3 +106,6 @@ analysis_*.json
 
 # Zone Identifier files (Windows)
 *:Zone.Identifier
+
+# Project documentation
+CLAUDE.md
